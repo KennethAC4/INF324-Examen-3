@@ -1,0 +1,16 @@
+CREATE TABLE alumno (
+    ci varchar(10) PRIMARY KEY NOT null,
+    nombre varchar(25),
+    paterno varchar(25),
+    materno varchar(25),
+    promedioAprobadas int,
+    promedioGeneral int
+);
+
+CREATE TABLE docente (
+    ci varchar(10) PRIMARY KEY NOT null,
+    nombre varchar(25),
+    paterno varchar(25),
+    materno varchar(25),
+    numeroMaterias int
+)
